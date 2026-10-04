@@ -42,7 +42,7 @@ Por ejemplo: Modifico README.md lo que es Working Directory, luego hago ( git ad
 
 4). Explica con tus palabras qué es HEAD.
 
-\-Es básicamente como una referencia que me dice en que rama me encuentro ahora  mismo. 
+\- HEAD es la referencia que indica en qué commit o rama estoy trabajando en ese momento. Cuando cambio de branch, HEAD cambia y Git adapta los archivos del working tree al contenido de esa rama. 
 
 
 
@@ -64,7 +64,7 @@ Por ejemplo: Modifico README.md lo que es Working Directory, luego hago ( git ad
 
 6). Durante el conflicto de la Parte H, ¿qué representaba el contenido entre <<<<<<< HEAD y =======? ¿Y entre ======= y >>>>>>>?
 
-\-La primera de ellas era la versión que ya tenía la rama en la que estaba, mientras que la parte de abajo era la versión de la otra rama.  Borrando los símbolos, actualizando el texto y después hacer un commit, solucionamos el conflicto.
+\-La primera de ellas era la versión que ya tenía la rama en la que estaba, mientras que la parte de abajo era la versión de la otra rama, la que intento fusionar .  Borrando los símbolos, actualizando el texto y después haceciendo un commit, solucionamos el conflicto.
 
 
 
