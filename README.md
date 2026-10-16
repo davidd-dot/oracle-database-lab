@@ -8,3 +8,6 @@ Name: David González González
 
 Professor: Richard Aviles Lopez
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for branch and commit conventions.
