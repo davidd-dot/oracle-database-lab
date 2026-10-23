@@ -15,3 +15,9 @@ export EVID="docs/bitacora/evidencia"
 
 # Fecha y hora UTC para las evidencias
 ts() { date -u +%Y%m%dT%H%M%SZ; }
+
+# ORDS (Parte M): middleware instalado en Linux, fuera del contenedor de la base
+export ORDS_HOME="/opt/oracle/ords"
+export ORDS_CONFIG="/etc/ords/config"
+export ORDS_LOGS="/var/log/ords"
+export ORDS_PORT=8080
