@@ -10,7 +10,10 @@ export PORT_DB=1521
 export PORT_ORDS=8181
 export SERVICE_CDB="FREE"
 export SERVICE_PDB="FREEPDB1"
-export BACKUP_DIR="$(pwd)/backups"
+
+BACKUP_DIR="$(pwd)/backups"
+export BACKUP_DIR
+
 export EVID="docs/bitacora/evidencia"
 
 # Fecha y hora UTC para las evidencias
