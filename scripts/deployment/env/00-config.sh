@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# scripts/deployment/env/00-config.sh
+# Constantes del proyecto oracle-database-lab.
+# NO contiene contraseñas.
+
+export CONT_NAME="oralab-26ai"
+export VOL_NAME="oralab-26ai-data"
+export IMG="container-registry.oracle.com/database/free:latest"
+export PORT_DB=1521
+export PORT_ORDS=8181
+export SERVICE_CDB="FREE"
+export SERVICE_PDB="FREEPDB1"
+
+BACKUP_DIR="$(pwd)/backups"
+export BACKUP_DIR
+
+export EVID="docs/bitacora/evidencia"
+
+# Fecha y hora UTC para las evidencias
+ts() { date -u +%Y%m%dT%H%M%SZ; }
+
+# ORDS (Parte M): middleware instalado en Linux, fuera del contenedor de la base
+export ORDS_HOME="/opt/oracle/ords"
+export ORDS_CONFIG="/etc/ords/config"
+export ORDS_LOGS="/var/log/ords"
+export ORDS_PORT=8080
